@@ -1,0 +1,23 @@
+.chat_block{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+.chat_block:hover{
+    cursor: pointer;
+}
+.info{
+    display: flex;
+}
+.dp{
+    /* width: 100%; */
+    padding-top: 8px;
+}
+.name{
+    margin-left: 10px;
+}
+.message{
+    size: 16px;
+    color: #707C97;
+    line-height: 26px;
+}

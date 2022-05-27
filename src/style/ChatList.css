@@ -1,0 +1,54 @@
+.chatlist {
+  margin: 60px 30px;
+  font-family: "TT Norms Pro", sans-serif;
+  flex: 0.3;
+  margin-left: 320px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding-top: 15px;
+}
+.btn {
+  background: linear-gradient(92.68deg, #7cb8f7 0%, #2a8bf2 100%);
+  box-shadow: 6px 6px 25px rgba(42, 139, 242, 0.15),
+    4px 4px 25px rgba(42, 139, 242, 0.05),
+    10px 6px 25px rgba(42, 139, 242, 0.15);
+  border-radius: 6px;
+  font-size: 20px !important;
+  height: fit-content;
+  line-height: 20px;
+  text-transform: none !important;
+  font-family: "TT Norms Pro", sans-serif !important;
+}
+.search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search_box {
+  height: 40px !important;
+  background: whitesmoke;
+  box-shadow: 0px 10px 55px rgba(0, 0, 0, 0.05),
+    0px 4px 10px rgba(0, 0, 0, 0.25), 0px 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 5px;
+  outline: none;
+  /* text-align: center; */
+  /* width: 60px; */
+}
+
+.search_icon {
+  position: absolute;
+  padding: 10px;
+}
+.input[type="text"] {
+  transition: 0.3s;
+  box-sizing: border-box;
+  outline: none;
+}
+.search > input {
+  padding-left: 40px;
+}
